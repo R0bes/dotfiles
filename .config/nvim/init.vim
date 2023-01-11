@@ -1,0 +1,4 @@
+
+colo molokai 
+
+syntax on
