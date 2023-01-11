@@ -14,6 +14,10 @@ alias rm='rm -i'
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 
+
+alias pacs='sudo pacman -Sy'
+
+
 #Exports
 export EDITOR=vim
 export VISUAL=vim
