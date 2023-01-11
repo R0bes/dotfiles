@@ -29,3 +29,5 @@ export HISTCONTROL=ignoreboth
 
 PS1='\[\e[01;31m\]\u@\h\[\e[01;34m\] \w \$\[\e[00m\] '
 PS2='\[\033[1m\]>>\[\033[0m\] '
+
+neofetch
