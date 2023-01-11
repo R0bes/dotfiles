@@ -12,7 +12,7 @@ alias ..='cd ..'
 alias mv='mv -i'
 alias rm='rm -i'
 
-alias config='/usr/bin/git --git-dir=$HOME/.config --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
 
 #Exports
 export EDITOR=vim
