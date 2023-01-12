@@ -6,7 +6,8 @@
 [[ $- != *i* ]] && return
 
 # Aliases
-alias ls='exa -la'
+alias ls='exa -lga --icons'
+alias tree='exa -lga --icons  --tree --level=2'
 alias grep='grep --color=auto'
 alias ..='cd ..'
 alias mv='mv -i'
