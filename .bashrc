@@ -35,3 +35,5 @@ neofetch
 
 # run starship prompt
 eval "$(starship init bash)"
+
+[ -f "/home/robs/.ghcup/env" ] && source "/home/robs/.ghcup/env" # ghcup-env

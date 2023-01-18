@@ -1,0 +1,100 @@
+
+* {
+  all: unset;
+}
+
+window {
+  background-color: #121212;
+	color: #ffd5cd;
+  font-family: Museo Sans;
+  font-size: small;
+  border-radius: 10px;
+}
+
+button {
+  all: unset;
+  background-color: #121212;
+  padding: 10px;
+}
+
+// Date Tile
+.number_day {
+  padding-top: 2px;
+  font-size: 35px;
+  color: #D35D6E;
+}
+.month {
+  font-weight: bold;
+}
+
+
+// Weather Tile
+.weather-icon-side {
+  font-size: 45px;
+  font-family: Iosevka;
+  margin: 5px 30px 5px 30px;
+}
+.temperature-side {
+  font-size: 16px;
+  font-weight: 900;
+  padding-top: 13px;
+  padding-left: 10px;
+}
+.weather-stat-side {
+  font-size: 16px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  color: #D35D6E;
+}
+
+
+// Time Tile
+.time-side {
+  margin: 20px 65px 0px 65px;
+  font-size: 60px;
+}
+.minute-side {
+  color: #D35D6E;
+}
+.day-side {
+  font-size: 16px;
+  font-weight: bold;
+  color: #90c861;
+}
+
+
+
+.sysbtn button {
+  font-size: 30px;
+}
+.shutdown-side ~ button:hover {
+  color: #D35D6E;
+}
+.shutdown-side{
+  color: #D35D6E;
+}
+.shutdown-side:hover{
+  color: #ffd5cd;
+}
+.reboot-side{
+  color: #84afdb;
+}
+.lock-side{
+  color: #ffd5cd;
+}
+.suspend-side{
+  color: #c47eb7;
+}
+.logout-side{
+  color: #90c861;
+}
+.search-side {
+  border-radius: 12px;
+  background-color: #272626;
+  margin: 20px 30px 20px 30px;
+}
+
+.search-side:hover {
+  color: #D35D6E;
+}

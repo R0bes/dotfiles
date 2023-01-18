@@ -1,0 +1,18 @@
+
+alias ls='exa -lga --icons'
+alias tree='exa -lga --icons  --tree --level=2'
+
+alias grep='grep --color=auto'
+
+alias ..='cd ..'
+alias ...'cd ../..'
+
+alias mv='mv -i'
+alias rm='rm -i'
+
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
+
+alias pacs='sudo pacman -Sy'
+alias yays='yay -Sy'
+
+alias em='emacs'
